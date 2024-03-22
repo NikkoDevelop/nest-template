@@ -1,7 +1,7 @@
 {
   "name": "nest-template",
   "version": "0.0.0",
-  "description": "X5 Digital Platform Nest.js template",
+  "description": "Nest.js template",
   "type": "commonjs",
   "engines": {
     "node": ">=20",
@@ -30,7 +30,7 @@
       "prettier -w"
     ]
   },
-  "author": "X5 Food Tech",
+  "author": "Nikko Develop",
   "license": "UNLICENSED",
   "devDependencies": {
     "@nestjs/cli": "^10.3.2",
