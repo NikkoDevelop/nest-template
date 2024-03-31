@@ -12,7 +12,7 @@ async function bootstrap() {
   });
 
   const swaggerConfig = new DocumentBuilder()
-    .setTitle('X5 Digital Platform Nest.js template')
+    .setTitle('Platform Nest.js template')
     .setDescription('Template API')
     .setVersion(version)
     .build();

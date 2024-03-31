@@ -12,14 +12,4 @@ export class HealthcheckController {
   public async ready(): Promise<string> {
     return Promise.resolve(`Nest template ${version} ready`);
   }
-
-  @Get('/check/live')
-  public async live(): Promise<string> {
-    return Promise.resolve(`Nest template ${version} live`);
-  }
-
-  @Get('/check/startup')
-  public async startup(): Promise<string> {
-    return Promise.resolve(`Nest template ${version} started`);
-  }
 }
